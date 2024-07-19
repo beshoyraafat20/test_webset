@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* header section start */
+
+header {
+    background-color: #6193c0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10000;
+    position: fixed;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.logo{
+    width: 40%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #c2dcf3;
+    font-size:4em;
+    -webkit-text-stroke: #01294b 1px;
+    -moz-text-stroke: #01294b 1px;
+    -ms-text-stroke: #01294b 1px;
+    text-stroke: #01294b 1px;
+
+}
+a{
+    display: inline-block;
+}
+/* nav section start */
+nav ul {
+    width: 60%;
+    display: flex;
+    list-style-type: none;
+
+}
+
+nav ul li{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.4em; 
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #010a12;
+    transition-duration: 0.9ms;
+}
+
+nav a:hover{
+    color: #c2dcf3;
+    transform: scale(1.01);
+}
+
+.hero{
+    min-height: 100vh;
+    background-image: url("../images/hero4.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+    min-height: 100vh;
+
+}
